@@ -24,7 +24,7 @@
   Your browser does not support the audio element.
 </audio>
 
-<canvas id="canvas" width="1000" height="1000"></canvas>
+<canvas id="canvas" width="1050" height="1050"></canvas>
 
 <script>
 const canvas = document.getElementById("canvas");
@@ -44,8 +44,8 @@ function draw() {
     return;
   }
   const t = i / 5;
-  const x = heartX(t) * 21; // smaller heart
-  const y = heartY(t) * 21;
+  const x = heartX(t) * 22; // smaller heart
+  const y = heartY(t) * 22;
 
   ctx.beginPath();
   ctx.moveTo(cx, cy);
